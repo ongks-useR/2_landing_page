@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    background-color: #1F2937;
+    color: #FFFF;
+}
+
+button {
+    text-transform: capitalize;
+    background-color: #3882F6;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#animal-picture {
+    height: 500px;
+    width: auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.updates,
+.action {
+    background-color: #ffff;
+    color: #1F2937;
+}
+
+.updates h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.general-container p:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.general-container p:nth-child(2),
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}

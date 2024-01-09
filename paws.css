@@ -1,19 +1,23 @@
+/* General style requirements */
 body {
     margin: 0;
     box-sizing: border-box;
     text-transform: capitalize;
-    background-color: #1F2937;
-    color: #FFFF;
+    text-align: center;
 }
 
 button {
     text-transform: capitalize;
-    background-color: #3882F6;
 }
 
 #container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.modal,
+footer {
+    background-color: #1F2937;
 }
 
 #animal-picture {
@@ -50,4 +54,47 @@ button {
 ul {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Modal Container */
+.modal-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    gap: 25px;
+}
+
+/* General */
+.general {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.general-container {
+    width: 600px;
+}
+
+#animal-picture {
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.general-buttons button {
+    padding: 15px 30px;
+    color: #FFFF;
+    background-color: #3882F6;
+    border: 1px solid #FFFF;
+    width: 150px;
+    margin: 20px;
 }

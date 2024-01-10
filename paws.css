@@ -100,6 +100,7 @@ ul {
 }
 
 /* Updates */
+
 .update-statement button {
     background-color: #3882F6;
     color: #FFFF;
@@ -115,13 +116,35 @@ ul {
     justify-content: space-evenly;
 }
 
+.cards {
+    margin: 100px 10px;
+}
+
 .card {
     border: 1px solid black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     width: 300px;
+    text-align: left;
 }
 
 .more {
     color: #f1d204;
+}
+
+/* Quote */
+.quote {
+    padding: 30px;
+    color: #FFFF;
+}
+
+blockquote {
+    margin: 0;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    font-size: 25px;
+    margin-top: 30px;
 }

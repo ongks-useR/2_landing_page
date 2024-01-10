@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     text-transform: capitalize;
     text-align: center;
+    font-family: "Poppins", "Lato", sans-serif;
 }
 
 button {
@@ -100,6 +101,10 @@ ul {
 
 /* Updates */
 
+.updates>p {
+    padding: 20px;
+}
+
 .update-statement button {
     background-color: #3882F6;
     color: #FFFF;
@@ -158,7 +163,7 @@ cite {
 }
 
 .action p {
-    width: 800px;
+    width: 1000px;
     margin: 20px auto;
 }
 
@@ -166,4 +171,14 @@ cite {
     padding: 20px;
     margin: 30px;
     width: 150px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    height: 50px;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,6 +1,5 @@
 body {
     font-family: "Roboto", serif;
-    font-weight: 400;
     font-style: normal;
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@ body {
 /* 1st section */
 
 body > div:nth-of-type(1) {
-    background-color: black;
+    background-color:#1F2937;
 }
 
 /* header */
@@ -38,7 +37,8 @@ body > div:nth-of-type(1) {
 .nav-item {
     text-decoration: none;
     padding: 5px 10px;
-    color: white;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
@@ -62,18 +62,21 @@ body > div:nth-of-type(1) {
 }
 
 .main-text {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 600;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
 .secondary-text {
-    font-size: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 #donate-now {
     color: white;
     text-decoration: none;
-    background-color: lightskyblue;
+    background-color: #3882F6;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -82,8 +85,9 @@ body > div:nth-of-type(1) {
 
 .top-news-title {
     text-align: center;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
     padding: 30px 0;
 }
 
@@ -115,7 +119,7 @@ body > div:nth-of-type(1) {
 /* 3rd Section */
 
 body > div:nth-of-type(3) {
-    background-color: gainsboro;
+    background-color: #E5E7EB;
     height: 350px;
     display: flex;
     align-items: center;
@@ -127,16 +131,17 @@ body > div:nth-of-type(3) {
 }
 
 blockquote {
-    font-size: 40px;
+    font-size: 36px;
     font-style: italic;
     text-align: center;
+    color: #1F2937;
     font-weight: 100;
 }
 
 #inspiring-quote p {
     text-align: right;
     padding-right: 100px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -149,7 +154,7 @@ body > div:nth-of-type(4) {
 }
 
 #call-to-action {
-    background-color: rgb(70, 176, 241);
+    background-color: #3882F6;
     border-radius: 10px;
     color: white;
     display: flex;
@@ -179,7 +184,7 @@ body > div:nth-of-type(4) {
 
 /*  footer */
 footer {
-    background-color: black;
+    background-color: #1F2937;
     color: white;
     height: 60px;
     display: flex;

@@ -7,16 +7,16 @@ body {
     box-sizing: border-box;
 }
 
-body > div:nth-of-type(1) {
-    background-color: black;
-}
-
 .center {
     width: 70%;
     margin: 0 auto;
 }
 
 /* 1st section */
+
+body > div:nth-of-type(1) {
+    background-color: black;
+}
 
 /* header */
 .header {
@@ -137,4 +137,58 @@ blockquote {
     text-align: right;
     padding-right: 100px;
     font-weight: 500;
+}
+
+
+/* 4th Section */
+
+body > div:nth-of-type(4) {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#call-to-action {
+    background-color: rgb(70, 176, 241);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#call-to-action div:nth-of-type(1) {
+    width: 60%;
+    padding: 40px 20px;
+}
+
+#call-to-action div:nth-of-type(1) p:nth-of-type(1) {
+    font-size: 30px;
+}
+
+
+#call-to-action a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*  footer */
+footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+footer > p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
 }
